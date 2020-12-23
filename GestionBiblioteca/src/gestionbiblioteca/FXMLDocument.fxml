@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="443.0" prefWidth="457.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="gestionbiblioteca.FXMLDocumentController">
+   <children>
+      <Text layoutX="103.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BIBLIOTECAS PÚBLICAS ALBACETE" textAlignment="CENTER" wrappingWidth="251.13671875">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <TextField layoutX="54.0" layoutY="129.0" />
+      <DatePicker layoutX="54.0" layoutY="274.0" />
+      <SplitMenuButton layoutX="54.0" layoutY="197.0" mnemonicParsing="false" text="Elige número">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Button layoutX="129.0" layoutY="346.0" mnemonicParsing="false" text="Aceptar" />
+      <Button layoutX="266.0" layoutY="346.0" mnemonicParsing="false" text="Limpiar" />
+      <Text layoutX="54.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI/NIE" wrappingWidth="86.13671875" />
+      <Text layoutX="54.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puesto" wrappingWidth="86.13671875" />
+      <Text layoutX="54.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha" wrappingWidth="86.13671875" />
+   </children>
+</AnchorPane>
